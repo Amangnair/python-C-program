@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+void main()
+{
+int n;
+printf("enter the year:");
+scanf("%d",&n);
+printf(n%4==0?"leap year":"not a leap year");
+}
